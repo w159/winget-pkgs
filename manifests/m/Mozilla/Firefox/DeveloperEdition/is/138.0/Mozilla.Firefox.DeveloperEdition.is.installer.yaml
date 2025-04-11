@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: Mozilla.Firefox.DeveloperEdition.is
 PackageVersion: "138.0"
@@ -24,19 +24,19 @@ FileExtensions:
 - webp
 - xht
 - xhtml
-ReleaseDate: 2025-04-04
+ReleaseDate: 2025-04-11
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win32/is/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: C09274C1FADA57BCBC21DDD4041A3169B6FA2A921490BB0EC46A53AA9895B3BC
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win32/is/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: 40C8F03AC02EAA90B495D63B10A6FB6DCFD6788DDAFBABF7DAED072AC1183EE6
   ProductCode: Firefox Developer Edition 138.0 (x86 is)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win64/is/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: FB7B2DBE0CBA724925C58D5ADE4E0F81844188E95C3353EF31AFB606C3FF0FE1
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win64/is/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: F58FB71E71F076C31232179ADA7B58DB34B90DD0BDDC00B6E208AA4A00089F74
   ProductCode: Firefox Developer Edition 138.0 (x64 is)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win64-aarch64/is/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: 5B96B4FD1F4BA89D702C157AFA359BE42798A79A7D3A7A2DAB9FA6E0585056FF
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win64-aarch64/is/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: 8FA9053E4D27F91E582462952A3574E5E14741BF4CDBBE95F2EA4907BF91EF67
   ProductCode: Firefox Developer Edition 138.0 (arm64 is)
 ManifestType: installer
-ManifestVersion: 1.9.0
+ManifestVersion: 1.10.0

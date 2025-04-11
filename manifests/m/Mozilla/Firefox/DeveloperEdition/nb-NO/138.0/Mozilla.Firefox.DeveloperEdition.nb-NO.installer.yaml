@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: Mozilla.Firefox.DeveloperEdition.nb-NO
 PackageVersion: "138.0"
@@ -24,19 +24,19 @@ FileExtensions:
 - webp
 - xht
 - xhtml
-ReleaseDate: 2025-04-04
+ReleaseDate: 2025-04-11
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win32/nb-NO/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: FFF7A72A97B7A3F7A794633CFC8C5CCFA01EC6FD650559563C3D323079F00A31
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win32/nb-NO/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: DE3B978DB334E3FACBCB1D0A5317FFA63FAC7E72FAE5011797E2CC1939FE7B24
   ProductCode: Firefox Developer Edition 138.0 (x86 nb-NO)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win64/nb-NO/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: 089E92B2F53C5C93920BCE7240C064577FC16C5F5040DDF197224B85721506CD
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win64/nb-NO/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: 181A6FF5D71E3504F62912BB58D5C58F2E44C762FF3AF1971A0639B38EE69553
   ProductCode: Firefox Developer Edition 138.0 (x64 nb-NO)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b3/win64-aarch64/nb-NO/Firefox%20Setup%20138.0b3.exe
-  InstallerSha256: 57887442C676C096BB9BE448502BC9C31B5689025F521AC275144B4611B4191A
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/138.0b6/win64-aarch64/nb-NO/Firefox%20Setup%20138.0b6.exe
+  InstallerSha256: F0C24B35C9BC14A0537A6330B60F3FB0005F58745257B709249DD41492573912
   ProductCode: Firefox Developer Edition 138.0 (arm64 nb-NO)
 ManifestType: installer
-ManifestVersion: 1.9.0
+ManifestVersion: 1.10.0
